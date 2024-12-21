@@ -65,7 +65,7 @@ bot(
     const msg = generateList(
       result.map(({ title, id, duration, author, album }) => ({
         _id: `🆔&id\n`,
-        text: `🎵${title}\n🕒${duration}\n👤${author}\n📀${album}\n\n`,
+        text: ` samuza🎵${title}\n🕒${duration}\n👤${author}\n📀${album}\n\n`,
         id: `song https://www.youtube.com/watch?v=${id}`,
       })),
       `Searched ${match} and Found ${result.length} results\nsend 🆔 to download song.\n`,
